@@ -8,7 +8,8 @@ const obj ={
     price: 200,
     thumbnail: "google.com"
 }
-// container.save(obj)
+container.save(obj)
 // container.getById(3)
 // container.getAll()
-container.deleteById(10)
+//container.deleteById(3)
+//container.deleteAll()

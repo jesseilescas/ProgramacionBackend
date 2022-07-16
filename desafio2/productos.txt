@@ -16,35 +16,5 @@
     "price": 200,
     "thumbnail": "google.com",
     "id": 3
-  },
-  {
-    "tittle": "Piñata",
-    "price": 200,
-    "thumbnail": "google.com",
-    "id": 4
-  },
-  {
-    "tittle": "Piñata",
-    "price": 200,
-    "thumbnail": "google.com",
-    "id": 5
-  },
-  {
-    "tittle": "Piñata",
-    "price": 200,
-    "thumbnail": "google.com",
-    "id": 6
-  },
-  {
-    "tittle": "Piñata",
-    "price": 200,
-    "thumbnail": "google.com",
-    "id": 8
-  },
-  {
-    "tittle": "Piñata",
-    "price": 200,
-    "thumbnail": "google.com",
-    "id": 9
   }
 ]

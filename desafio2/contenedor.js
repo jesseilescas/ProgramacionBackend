@@ -10,12 +10,12 @@ class Contenedor{
         try {
             let dataArch = await fs.promises.readFile(this.ruta, 'utf-8')
             let dataArchParse = JSON.parse(dataArch)
-            if (dataArchParse) {
+            if (dataArchParse.length) {
                 await fs.promises.writeFile(this.ruta, JSON.stringify([...dataArchParse, {...obj, id: dataArchParse[dataArchParse.length-1].id +1 } ], null, 2))
                 
             } else {
                 
-                await fs.promises.writeFile(this.ruta, JSON.stringify([{...obj, id: dataArchParse[dataArchParse.length-1].id +1 } ], null, 2))
+                await fs.promises.writeFile(this.ruta, JSON.stringify([{...obj, id: 1 } ], null, 2))
             }
             console.log(`El producto tiene el id: ${dataArchParse[dataArchParse.length-1].id +1}`);
             
@@ -71,6 +71,10 @@ class Contenedor{
         } catch (error) {
             console.log(error);
         }
+    }
+    async deleteAll(){
+        await fs.promises.writeFile(this.ruta, '[]', 'utf-8')
+        console.log('Productos Eliminados');
     }
 
 }
