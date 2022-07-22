@@ -1,0 +1,20 @@
+[
+  {
+    "tittle": "Piñata",
+    "price": 200,
+    "thumbnail": "google.com",
+    "id": 1
+  },
+  {
+    "tittle": "Piñata",
+    "price": 200,
+    "thumbnail": "google.com",
+    "id": 2
+  },
+  {
+    "tittle": "Piñata",
+    "price": 200,
+    "thumbnail": "google.com",
+    "id": 3
+  }
+]
