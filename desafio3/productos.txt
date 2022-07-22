@@ -1,19 +1,19 @@
 [
   {
     "tittle": "Piñata",
-    "price": 200,
+    "price": 450.25,
     "thumbnail": "google.com",
     "id": 1
   },
   {
-    "tittle": "Piñata",
-    "price": 200,
+    "tittle": "Manta Regional",
+    "price": 325.75,
     "thumbnail": "google.com",
     "id": 2
   },
   {
-    "tittle": "Piñata",
-    "price": 200,
+    "tittle": "Globo Helio",
+    "price": 75.35,
     "thumbnail": "google.com",
     "id": 3
   }

@@ -13,14 +13,24 @@ server.on('error', (err)=>console.log(err))
 /* ----------------------------- Data: Productos ---------------------------- */
 const Contenedor = require("./contenedor");
 const producto = new Contenedor('./productos.txt')
-const productos = producto.getAll()
-const productoRandom = producto.getRandom()
 
 /* ---------------------------------- Rutas --------------------------------- */
 app.get('/productos', (req, resp)=>{
-    resp.send(productos)
+        producto.getAll()
+                .then(data=>{
+                    resp.send(data)
+                })
+                .catch(error=>console.log(error))
 })
 app.get('/productoRandom', (req, resp)=>{
-    resp.send(productoRandom)
+        producto.getRandom()
+                .then(data=>{
+                    resp.send(data)
+                })
+})
+app.get('/', (req, resp)=>{
+    resp.send(`<h1 style="text-align:center">Desafio 3: Servidor con Express</h1>
+                <a href="/productos" style="text-align:center">Todos los Productos</a>
+                <a href="/productoRandom" style="text-align:center">Producto Aleatorio</a>`)
 })
 
