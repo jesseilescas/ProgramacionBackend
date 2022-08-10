@@ -28,6 +28,7 @@ const productos = [
     }
 ]
 app.use(express.static('public'))
+app.use(express.urlencoded({extended: true}))
 /* -------------------------------- Sub-Rutas ------------------------------- */
 expressRouter.get('/form', (req, res)=>{
     res.sendFile(__dirname+'/public/index.html')

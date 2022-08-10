@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -12,13 +12,14 @@
 </head>
 <body>
     <section>
-        <form action="post" class="form">
+        <form action="/api/productos" class="form" method="post">
             <label for="">Nombre de Producto:</label>
-            <input type="text" name="" id="" class="input">
+            <input type="text" name="tittle" id="" class="input">
             <label for="">Precio:</label>
-            <input type="number" name="" id="" class="input">
+            <input type="number" name="price" id="" class="input">
             <label for="">URL de la Imágen:</label>
-            <input type="text" name="" id="" class="input">
+            <input type="text" name="thumbnail" id="" class="input">
+            <input type="submit" value="Enviar">
         </form>
     </section>
 </body>
