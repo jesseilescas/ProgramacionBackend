@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background: rgb(214,175,228);
+    background: linear-gradient(0deg, rgba(214,175,228,1) 0%, rgba(199,175,124,1) 100%);    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+img{
+    width: 10%;
+}
+table{
+    text-align: center
+}
+.space{
+    background-color: #fff;
+    width: 500px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16em;
+    padding: 0;
+    box-shadow: 1px 1px 18px -2px rgba(0,0,0,0.67);
+}
+.space-guardados{
+    background-color: #fff;
+    width: 100%;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    padding: 0;
+    box-shadow: 1px 1px 18px -2px rgba(0,0,0,0.67);
+    
+}
+.guardados{
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    border: none;
+    background-color: rgb(106, 57, 126);
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+.titulo{
+    color: rgb(112, 112, 112);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.subtitulo{
+    color: rgb(112, 112, 112);
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 80%;
+    color: rgb(112, 112, 112);
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    
+}
+.tabla{
+    padding: 35px;
+}
+
