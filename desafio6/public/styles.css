@@ -103,9 +103,8 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-}
-.mensajes p {
-    margin-bottom: 0;
+    overflow-y: scroll;
+    overflow: scroll;
 }
 .entrada-mensaje{
     display: flex;
