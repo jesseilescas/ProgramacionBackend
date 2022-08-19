@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background: rgb(214,175,228);
+    background: linear-gradient(0deg, rgba(214,175,228,1) 0%, rgba(199,175,124,1) 100%);    
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+img{
+    width: 10%;
+}
+table{
+    text-align: center
+}
+.space{
+    background-color: #fff;
+    width: 700px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    padding: 0;
+    box-shadow: 1px 1px 18px -2px rgba(0,0,0,0.67);
+}
+.space-chat{
+    background-color: #fff;
+    width: 100%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    padding: 0;
+    box-shadow: 1px 1px 18px -2px rgba(0,0,0,0.67);
+    
+    
+}
+hr{
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}
+.guardados{
+    display: flex;
+    justify-content: flex-end;
+}
+.buttons{
+    border: none;
+    background-color: rgba(199,175,124,1);
+    color: #fff;
+    padding: 5px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+.titulo{
+    background-color: rgb(177, 108, 173);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.subtitulo{
+    color: rgb(112, 112, 112);
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 80%;
+    color: rgb(112, 112, 112);
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    
+}
+.tabla{
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.tabla thead th{
+    position: sticky; 
+    top: 0;
+    background-color: rgba(199,175,124,1);
+    
+}
+.input-usuario{
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.mensajes{
+    height: 150px;
+    padding: 5px;
+    width: 95%;
+    background-color: rgb(223, 219, 219);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.mensajes p {
+    margin-bottom: 0;
+}
+.entrada-mensaje{
+    display: flex;
+}
+.form-mensajes{
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    width: 95%;
+    margin-top: 20px;
+}
+#mensaje{
+    width: 90%;
+}
+ul{
+    list-style: none;
+}
